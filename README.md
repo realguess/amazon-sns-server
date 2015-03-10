@@ -1,3 +1,3 @@
-# amazon-sns-server
+# SNS Server
 
-A Node.js server for processing Amazon SNS messages.
+A Node.js server as the HTTP endpoint for Amazon SNS messages.
