@@ -1,0 +1,25 @@
+{
+  "name": "amazon-sns-server",
+  "version": "0.0.1",
+  "description": "HTTP server for processing Amazon SNS messages.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/realguess/amazon-sns-server.git"
+  },
+  "keywords": [
+    "amazon-sns"
+  ],
+  "author": {
+    "name": "Chao Huang",
+    "email": "chao@realguess.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realguess/amazon-sns-server/issues"
+  },
+  "homepage": "https://github.com/realguess/amazon-sns-server"
+}
