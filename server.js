@@ -99,20 +99,20 @@ module.exports = function (options) {
           // Visiting subscription URL and response to subscription confirmation
           // request can happen at the same time.
           request(body.SubscribeURL, logResponse);
-          subscribe(rawBody, done);
+          options.subscribe(rawBody, done);
           break;
 
         case 'Notification':
-          notify(rawBody, done);
+          options.notify(rawBody, done);
           break;
 
         case 'UnsubscriptionConfirmation':
-          unsubscribe(rawBody, done);
+          options.unsubscribe(rawBody, done);
           break; 
 
         default:
           // Unrecognized Amazon SNS messages
-          unknown(rawbody, done);
+          options.unknown(rawbody, done);
       }
     });
   });
