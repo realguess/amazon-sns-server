@@ -1,6 +1,6 @@
 {
-  "name": "amazon-sns-server",
-  "version": "0.0.1",
+  "name": "sns-server",
+  "version": "0.0.2",
   "description": "HTTP server for processing Amazon SNS messages.",
   "main": "server.js",
   "scripts": {
