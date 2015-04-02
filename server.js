@@ -78,7 +78,7 @@ module.exports = function (options) {
     };
   
     // Ignore all requests that are not related to Amazon SNS.
-    if (req.url !== '/amazon-sns' || req.method !== 'POST' || !messageType) {
+    if (req.method !== 'POST' || !messageType) {
       return respond(res);
     }
   
